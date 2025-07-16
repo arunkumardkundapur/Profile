@@ -2,8 +2,84 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>ArunKumar D Kudapur - Resume</title>
+    <meta charset="UTF-8" />
+    <title>ArunKumar D Kundapur - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+        }
+
+        header {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+
+        main {
+            flex: 3;
+            padding: 120px 20px 20px 20px;
+            /* space for fixed header */
+        }
+
+        aside {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 120px 20px 20px 20px;
+            /* space for fixed header */
+            border-left: 1px solid #ccc;
+            height: 100vh;
+            box-sizing: border-box;
+            position: sticky;
+            top: 0;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 10px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            margin: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -11,51 +87,48 @@
         <h1>ArunKumar D Kundapur</h1>
         <h2>Front End Developer</h2>
     </header>
+
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="mailto:arundk04081011@gmail.com">Contact Me</a></li>
+                <li><a href="https://github.com/arunkumardkundapur" target="_blank">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/arunkumar-d-kundapur-678052253" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </aside>
+
     <main>
         <section id="summary">
             <h3>Summary</h3>
             <p>2.5 years experience building Angular apps with HTML, CSS, JavaScript, and Node.js.</p>
         </section>
+
         <section id="skill">
-            <h3>Skill</h3>
+            <h3>Skills</h3>
             <ul>
                 <li>Angular</li>
                 <li>JavaScript</li>
                 <li>Node Js</li>
-                <li>Html</li>
-                <li>Css</li>
+                <li>HTML</li>
+                <li>CSS</li>
             </ul>
         </section>
-        <section>
-            <h3>
-                experience
-            </h3>
+
+        <section id="experience">
+            <h3>Experience</h3>
             <h4>Saartha Labs - Angular Developer</h4>
             <p>Worked on web applications, reusable libraries, and API integrations.</p>
-
         </section>
 
-
+        <footer>
+            <p>&copy; 2025 ArunKumar D Kundapur</p>
+        </footer>
     </main>
-
-    <aside>
-        <nav>
-            <ul>
-                <li><a href="/summary">Summary</a></li>
-                <li><a href="/skills">Skills</a></li>
-                <li><a href="/experience">Experience</a></li>
-                <li><a href="/education">Education</a></li>
-                <li><a href="mailto:arundk04081011@gmail.com">Contact Me</a></li>
-                <li><a href="https://github.com/arunkumardkundapur" target="_blank">GitHub</a></li>
-                <li><a href="https://linkedin.com/in/arunkumar-d-kundapur-678052253" rel="noopener noreferrer"
-                        target="_blank">LinkedIn</a></li>
-            </ul>
-        </nav>
-    </aside>
 </body>
-<footer>
-    <p>&copy; 2025 ArunKumar D Kundapur</p>
-
-</footer>
 
 </html>
